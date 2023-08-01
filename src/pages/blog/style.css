@@ -1,0 +1,6 @@
+.blog-item .check {
+  display: none;
+}
+.blog-item:hover .check {
+  display: block;
+}
