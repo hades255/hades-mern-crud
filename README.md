@@ -18,11 +18,11 @@ This repository contains a simple CRUD (Create, Read, Update, Delete) applicatio
 ## Run the Application
 To run the application, clone the repository:
 
-    git clone https://github.com/icode247/crud-with-mongodb/
+    git clone https://github.com/hades255/hades-mern-crud.git
 
 Then navigate to the root directory and Run `npm install` to install the necessary dependencies. 
 
-    cd crud-with-mongodb
+    cd hades-mern-crud
     npm install
 
 Then, run `npm start` to start the server.
@@ -35,3 +35,6 @@ Then, run `npm start` to start the server.
 - Add more robust error handling.
 - Implement user authentication and authorization.
 - Create a frontend for the application.
+
+<img src="./public/Screenshot_2.png" style="width:100%;height:100%;">
+<img src="./public/Screenshot_3.png" style="width:100%;height:100%;">
