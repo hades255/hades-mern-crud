@@ -1,17 +1,27 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const blogRouter = require("./routes/BlogRoutes");
+const cors = require("cors");
+const logger = require("morgan");
+const bodyParser = require("body-parser");
 
 const app = express();
 
-//middleware
+app.use(cors());
+app.use(logger("tiny"));
+
+// //middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.json());
+
 app.use("/api/blogs", blogRouter);
 
 //configure mongoose
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/CRUD",
+  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/CRUD",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
