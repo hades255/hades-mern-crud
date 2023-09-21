@@ -36,5 +36,8 @@ Then, run `npm start` to start the server.
 - Implement user authentication and authorization.
 - Create a frontend for the application.
 
-<img src="./public/Screenshot_2.png" style="width:100%;height:100%;">
-<img src="./public/Screenshot_3.png" style="width:100%;height:100%;">
+<img src="./ss/react.png" width="100%">
+<p align="center">
+    <img src="./public/Screenshot_2.png" width="49%" style="display: inline" float="left">
+    <img src="./public/Screenshot_3.png" width="49%" style="display: inline" float="right">
+</p>
